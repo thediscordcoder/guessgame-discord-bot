@@ -19,6 +19,7 @@ To see all the available commands on Discord
 !gg help
 ```
 To invite a user for a challenge
+
 Available Modes: Easy/Medium/Hard
 ```bash
 !gg invite <mention user> <mode>
