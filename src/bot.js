@@ -359,10 +359,10 @@ client.on('message', (message) => {
             .setColor('#ecf0f1')
             .setTitle(`GuessGame Help`)
             .setThumbnail('https://i.imgur.com/cRAGnBf.png')
-            .setDescription(`/gg invite <user> <easy/hard/medium> - To challenge a user\nex: /gg invite @dummy easy\n
-            /gg accept <invite code> - To accept someone's invitation\nex: /gg accept 5\n
-            /gg guess <number> - To guess a number while in a game\n
-            /gg stats <user> - To check a user's stats (if no user is passed then shows self stats)\n
+            .setDescription(`!gg invite <user> <easy/hard/medium> - To challenge a user\nex: !gg invite @dummy easy\n
+            !gg accept <invite code> - To accept someone's invitation\nex: !gg accept 5\n
+            !gg guess <number> - To guess a number while in a game\n
+            !gg stats <user> - To check a user's stats (if no user is passed then shows self stats)\n
             Easy: 1-50; Medium: 1-100; Hard:1-200;
             `);
 
